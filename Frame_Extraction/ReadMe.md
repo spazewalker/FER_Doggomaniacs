@@ -2,6 +2,7 @@
 ## For BAUM dataset
 ### Important Note
 After downloading all the zip files of BAUM dataset. Extract them all and then copy all the Subject folders into a single directory.
+
 **Functions**
 1. extract_frames.py [-h] [-s source_path] [-d destination_path] [-n number_of_frames] :
 This function extracts frames from each video of all subject and store them in a separate folder for further use.
@@ -30,4 +31,3 @@ For help:
 ```
 python3 create_list.py -h
 ```
-
