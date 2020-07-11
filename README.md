@@ -74,7 +74,7 @@ This file contains model for feature extraction and classification for Image dat
 * **classifierModel(input_shape):** Returns a model for feature extarction and classification. The model uses tensorflow backend.
 Overview of Model:
 
-[Model Overview](Screenshot from 2020-07-11 18-21-45.png)
+![Model Overview](Model_overview.png)
 
 ```
 model = classifierModel((48,48,1))
@@ -91,7 +91,7 @@ After downloading all the zip files of BAUM dataset. Extract them all and then c
 
 **These are the files in the folder:**
 * **extract_frames.py [-h] [-s source_path] [-d destination_path] [-n number_of_frames]** :
-This function extracts frames from each video of all subject and store them in a separate folder for further use. The dataset generated using this file is [here](ds.zip).
+This function extracts frames from each video of all subject and store them in a separate folder for further use. This is the Frame Extracted dataset generated from BAUM-2 dataset using this file: [ds.zip](ds.zip)
 
 *source_path*: The path of directory where all subjects folder are stored.
 
@@ -108,7 +108,7 @@ For help:
 python3 extract_frames.py -h
 ```
 * **create_list.py [-h] [-s source_path] [-d destination_path]** :
-This function creates a text file of all the frames extracted with their emotion. List generated using this file is [here](main.csv).
+This function creates a text file of all the frames extracted with their emotion. This is the list generated usnig this file: [main.csv](main.csv).
 
 *source_path*: The path of directory where all extracted frames are stored.
 
@@ -127,9 +127,6 @@ This file contains model for feature extraction and classification for Video dat
 
 **These are the functions in the file:**
 * **LSTM_model(clip_size,hidden_state_size,input_size):** Returns a LSTM model . The model uses tensorflow backend.
-Overview of Model:
-
-[Model Overview](Screenshot from 2020-07-11 18-21-45.png)
 
 ```
 model1 = LSTM_model(clip_size = 12,hidden_state_size = 12,input_size = (48,48))
