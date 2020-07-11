@@ -97,6 +97,7 @@ This function extracts frames from each video of all subject and store them in a
 *source_path*: The path of directory where all subjects folder are stored.  
 *destination_path*: The path of directory where you want to store all extracted frames.  
 *number_of_frames*: The number of frames you want to extract from each video.  
+
 How to call:  
 ```
 python3 extract_frames.py -s "/home/legolas/BAUM_dataset" -d "/home/legolas/Extracted" -n 16
@@ -110,6 +111,7 @@ python3 extract_frames.py -h
 This function creates a text file of all the frames extracted with their emotion. This is the list generated usnig this file: [main.csv](main.csv).  
 *source_path*: The path of directory where all extracted frames are stored.  
 *destination_path*: The path of text file you are going to create.  
+
 How to call:  
 ```
 python3 create_list.py -s "/home/legolas/Extracted" -d "main.txt"
