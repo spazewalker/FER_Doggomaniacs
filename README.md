@@ -29,7 +29,7 @@ Goal of the project:
 |Training | FER2013 | 92.4% |
 |Testing | Will be Updated Soon | Will be updated soon |
 
-[Confusion Matrix For Testing data](max_accuracy.png)
+![Confusion Matrix For Testing data](max_accuracy.png)
 ### For Videos:
 |  | Datset | Accuracy |
 | ----- | ---- | ---- |
