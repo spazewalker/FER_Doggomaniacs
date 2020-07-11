@@ -33,7 +33,7 @@ Goal of the project:
 ### For Videos:
 |  | Datset | Accuracy |
 | ----- | ---- | ---- |
-|Training | BAUM-2 | Will be Updates Soon |
+|Training | BAUM-2 | Will be Updated Soon |
 |Testing | Will be Updated Soon | Will be updated soon |
 
 ## Description Of Various Files/Folder in the Repository
