@@ -3,8 +3,8 @@
 This repository contains all the files for Emotion Recognition through Facial Expression recognition, a summer project under Brain and Cognitive Society, IIT Kanpur.
 
 Goal of the project:
-* Design a Model for Emotion Recognition in Images.[Paper Implemented](DeXpression: Deep Convolutional Neural Network for Expression Recognition)
-* Design a Model for Emotion Recognition in Videos.[Paper Implemented](Video-based emotion recognition using CNN-RNN and C3D hybrid networks)
+* Design a Model for Emotion Recognition in Images.[Paper Implemented](https://arxiv.org/abs/1509.05371)
+* Design a Model for Emotion Recognition in Videos.[Paper Implemented](https://dl.acm.org/doi/pdf/10.1145/2993148.2997632)
 
 ## All Necessary files in the Project:
 ### For Emotion Recognition in Images 
