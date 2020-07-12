@@ -121,7 +121,7 @@ For help:
 python3 create_list.py -h
 ```
 
-### [Video_emotion_Recognistion_with_data_functoins.ipynb](Video_emotion_Recognistion.ipynb)
+### [Video_emotion_Recognistion_with_data_functions.ipynb](Video_emotion_Recognistion_with_data_functions.ipynb)
 This file contains model for feature extraction and classification for Video dataset. It also contain function for Visualisation and Validation.
 
 **These are the functions in the file:**
