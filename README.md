@@ -125,9 +125,12 @@ python3 create_list.py -h
 This file contains model for feature extraction and classification for Video dataset. It also contain function for Visualisation and Validation.
 
 **These are the functions in the file:**
-* **LSTM_model(clip_size,hidden_state_size,input_size):** Returns a LSTM model . The model uses tensorflow backend.  
+* **fine_tune(input_shape):** Returns a LSTM model . The model uses tensorflow backend.
 ```
-model1 = LSTM_model(clip_size = 12,hidden_state_size = 12,input_size = (48,48))
+It uses the pre-trained image recognistion model for genrating image embeddings. Which are used as an input for LSTM and then outputs the predicted emotion
+```
+```
+fine_tuned_model = fine_tune((12,48,48,1))
 ```
 
 * **plot_confusion_matrix(cm,classes,normalize=False,title='Confusion Matrix',cmap=plt.cm.Blues):** This function prints a visual representation of *confusion matrix* with classes which are passed to it as input.  
