@@ -131,7 +131,14 @@ It uses the pre-trained image recognistion model for genrating image embeddings.
 ```
 ```
 fine_tuned_model = fine_tune((12,48,48,1))
+No. of frames extracted from one video = 12
+Image shape = (48,48,1)
 ```
+* **classifier_Model(X_input):** Returns the image embedding and takes input multiple frames of images. The model uses tensorflow backend.
+```
+It uses Time_Distributed layers so that each frame of images is processed simentaneously and then fed to the LSTM network. 
+```
+* **LSTM_model(input_shape):** It takes the shape of input which is (12,48,48,1). It returns the corresponding output as the predicted emotion.
 
 * **plot_confusion_matrix(cm,classes,normalize=False,title='Confusion Matrix',cmap=plt.cm.Blues):** This function prints a visual representation of *confusion matrix* with classes which are passed to it as input.  
 ```
