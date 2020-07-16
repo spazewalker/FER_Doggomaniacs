@@ -11,7 +11,7 @@ Goal of the project:
 ### For Emotion Recognition in Images 
 | Topics | Links | Description |
 | ------ | ----- | ----------- |
-|Preprocessing In Images | [LINK]( Emotion_Recognition(Image/Pre_processing)FER2013.ipynb ) | Contains all the functions necessary for Preprocessing |
+|Preprocessing In Images | [LINK]( Image/Emotion_Recognition(Pre_processing)FER2013.ipynb ) | Contains all the functions necessary for Preprocessing |
 |Preprocessed Dataset | [LINK]( https://drive.google.com/file/d/1vMW1bcAoy9UzZ8V22_mKAghNDTtHfk-H/view?usp=sharing ) | Contains Preprocessed FER 2013 data. Stored in Drive |
 |Model for Feature Extraction and Classification | [LINK]( Image/Model_for_static_image.ipynb ) | Contains  Model and Functions for Validation and Visualization |
 |Result | [LINK]( Image/Model_overview.png ) | Confusion Matrix of the Model |
