@@ -26,14 +26,14 @@ Goal of the project:
 ### For Images:
 |  | Datset | Accuracy |
 | ----- | ---- | ---- |
-|Training | FER2013 | 92.4% |
+|Training | FER2013 | 96% |
 |Testing | Will be Updated Soon | Will be updated soon |
 
-![Confusion Matrix For Testing data](max_accuracy.png)
+![Confusion Matrix For Testing data](Image/Confusion matrix.png)
 ### For Videos:
 |  | Datset | Accuracy |
 | ----- | ---- | ---- |
-|Training | BAUM-2 | Will be Updated Soon |
+|Training | BAUM-2 | 32% |
 |Testing | Will be Updated Soon | Will be updated soon |
 
 ## Description Of Various Files/Folder in the Repository
