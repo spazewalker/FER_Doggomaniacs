@@ -11,16 +11,16 @@ Goal of the project:
 ### For Emotion Recognition in Images 
 | Topics | Links | Description |
 | ------ | ----- | ----------- |
-|Preprocessing In Images | [LINK]( Emotion_Recognition(Pre_processing)FER2013.ipynb ) | Contains all the functions necessary for Preprocessing |
+|Preprocessing In Images | [LINK]( Emotion_Recognition(Image/Pre_processing)FER2013.ipynb ) | Contains all the functions necessary for Preprocessing |
 |Preprocessed Dataset | [LINK]( https://drive.google.com/file/d/1vMW1bcAoy9UzZ8V22_mKAghNDTtHfk-H/view?usp=sharing ) | Contains Preprocessed FER 2013 data. Stored in Drive |
-|Model for Feature Extraction and Classification | [LINK]( Model2.ipynb ) | Contains  Model and Functions for Validation and Visualization |
-|Result | [LINK]( max_accuracy.png ) | Confusion Matrix of the Model |
+|Model for Feature Extraction and Classification | [LINK]( Image/Model_for_static_image.ipynb ) | Contains  Model and Functions for Validation and Visualization |
+|Result | [LINK]( Image/Model_overview.png ) | Confusion Matrix of the Model |
 ### For Emotion Recognition in Videos
 | Topics | Links | Description |
 | ------ | ----- | -----------|
 |Frame Extraction and Preprocessing for videos | [LINK]( Frame_Extraction ) | Folder with necessary python files for Frame Extraction |
-|Extracted Frames dataset | [LINK]( ds.zip ) | Frames extracted from BAUM-2 dataset |
-|Model for Feature Extraction and Classification | [LINK]( Video_emotion_Recognistion.ipynb ) | Contains  Model and Functions for Validation and Visualization |
+|Extracted Frames dataset | [LINK]( Video/ds.zip ) | Frames extracted from BAUM-2 dataset |
+|Model for Feature Extraction and Classification | [LINK]( Video/Video_emotion_Recognistion_with_data_functions.ipynb ) | Contains  Model and Functions for Validation and Visualization |
 
 ## Result of the Models:
 ### For Images:
@@ -37,7 +37,7 @@ Goal of the project:
 |Testing | Will be Updated Soon | Will be updated soon |
 
 ## Description Of Various Files/Folder in the Repository
-### [Emotion_Recognition(Pre_processing)FER2013.ipynb](Emotion_Recognition(Pre_processing)FER2013.ipynb)
+### [Emotion_Recognition(Pre_processing)FER2013.ipynb](Image/Emotion_Recognition(Pre_processing)FER2013.ipynb)
 This file contains functions for preprocessing. Preprocessing for Emotion Recognition includes: Face detection, Rotation, Cropping, Smoothing, Rotation.
 
 **These are the functions in the file:**
@@ -69,14 +69,14 @@ savePreprocessed(data)
 faces,labels = get_faces(image)
 ```
 
-### [Model2.ipynb](Model2.ipynb)
+### [Model2.ipynb](Image/Model2.ipynb)
 This file contains model for feature extraction and classification for Image dataset. It also contain function for Visualisation and Validation.
 
 **These are the functions in the file:**
 * **classifierModel(input_shape):** Returns a model for feature extarction and classification. The model uses tensorflow backend.  
 Overview of Model:
 
-![Model Overview](Model_overview.png)
+![Model Overview](Image/Model_overview.png)
 
 ```
 model = classifierModel((48,48,1))
@@ -121,7 +121,7 @@ For help:
 python3 create_list.py -h
 ```
 
-### [Video_emotion_Recognistion_with_data_functions.ipynb](Video_emotion_Recognistion_with_data_functions.ipynb)
+### [Video_emotion_Recognistion_with_data_functions.ipynb](Video/Video_emotion_Recognistion_with_data_functions.ipynb)
 This file contains model for feature extraction and classification for Video dataset. It also contain function for Visualisation and Validation.
 
 **These are the functions in the file:**
