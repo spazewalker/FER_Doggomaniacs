@@ -14,7 +14,7 @@ Goal of the project:
 |Preprocessing In Images | [LINK]( Image/Emotion_Recognition(Pre_processing)FER2013.ipynb ) | Contains all the functions necessary for Preprocessing |
 |Preprocessed Dataset | [LINK]( https://drive.google.com/file/d/1vMW1bcAoy9UzZ8V22_mKAghNDTtHfk-H/view?usp=sharing ) | Contains Preprocessed FER 2013 data. Stored in Drive |
 |Model for Feature Extraction and Classification | [LINK]( Image/Model_for_static_image.ipynb ) | Contains  Model and Functions for Validation and Visualization |
-|Result | [LINK]( Image/Model_overview.png ) | Confusion Matrix of the Model |
+|Result | [LINK]( Image/Confusion_matrix.png ) | Confusion Matrix of the Model |
 ### For Emotion Recognition in Videos
 | Topics | Links | Description |
 | ------ | ----- | -----------|
@@ -26,10 +26,12 @@ Goal of the project:
 ### For Images:
 |  | Datset | Accuracy |
 | ----- | ---- | ---- |
-|Training | FER2013 | 96% |
-|Testing | Will be Updated Soon | Will be updated soon |
+|Training | FER2013 | 95% |
+|Testing | JFFE | 97% |
+|Testing | CK+ | 58% |
 
-![Confusion Matrix For Testing data](Image/Confusion matrix.png)
+![Confusion Matrix For Testing (JFFE data)](Image/confusion_matrix_jffe.png)
+![Confusion Matrix For Testing (CK+ data)](Image/confusion_matrix_ck.png)
 ### For Videos:
 |  | Datset | Accuracy |
 | ----- | ---- | ---- |
