@@ -28,14 +28,14 @@ Goal of the project:
 | ----- | ---- | ---- |
 |Training | FER2013 | 95% |
 |Testing | JFFE | 97% |
-|Testing | CK+ | 58% |
+|Testing | CK+ | 59% |
 
 ![Confusion Matrix For Testing (JFFE data)](Image/confusion_matrix_jffe.png)
 ![Confusion Matrix For Testing (CK+ data)](Image/confusion_matrix_ck+.png)
 ### For Videos:
 |  | Dataset | Accuracy |
 | ----- | ---- | ---- |
-|Training | BAUM-2 | 32% |
+|Training | BAUM-2 | 36% |
 |Testing | Will be Updated Soon | Will be updated soon |
 
 ## Description Of Various Files/Folder in the Repository
