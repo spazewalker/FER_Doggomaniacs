@@ -31,7 +31,7 @@ Goal of the project:
 |Testing | CK+ | 58% |
 
 ![Confusion Matrix For Testing (JFFE data)](Image/confusion_matrix_jffe.png)
-![Confusion Matrix For Testing (CK+ data)](Image/confusion_matrix_ck.png)
+![Confusion Matrix For Testing (CK+ data)](Image/confusion_matrix_ck+.png)
 ### For Videos:
 |  | Datset | Accuracy |
 | ----- | ---- | ---- |
