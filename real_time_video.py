@@ -5,8 +5,8 @@ from keras.models import load_model
 import numpy as np
 
 # parameters for loading data and images
-detection_model_path = '/Users/apple/Desktop/webcam/haarcascade_files/haarcascade_frontalface_default.xml'
-emotion_model_path = '/Users/apple/Downloads/training3.h5'
+detection_model_path = 'preprocessingpath.xml'
+emotion_model_path = 'modelpath.h5'
 
 # hyper-parameters for bounding boxes shape
 # loading models
