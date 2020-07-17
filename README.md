@@ -24,7 +24,7 @@ Goal of the project:
 
 ## Result of the Models:
 ### For Images:
-|  | Datset | Accuracy |
+|  | Dataset | Accuracy |
 | ----- | ---- | ---- |
 |Training | FER2013 | 95% |
 |Testing | JFFE | 97% |
@@ -33,7 +33,7 @@ Goal of the project:
 ![Confusion Matrix For Testing (JFFE data)](Image/confusion_matrix_jffe.png)
 ![Confusion Matrix For Testing (CK+ data)](Image/confusion_matrix_ck+.png)
 ### For Videos:
-|  | Datset | Accuracy |
+|  | Dataset | Accuracy |
 | ----- | ---- | ---- |
 |Training | BAUM-2 | 32% |
 |Testing | Will be Updated Soon | Will be updated soon |
