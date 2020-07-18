@@ -34,10 +34,10 @@ Goal of the project:
 ![Confusion Matrix For Testing (JFFE data)](Image/confusion_matrix_jffe.png)
 ![Confusion Matrix For Testing (CK+ data)](Image/confusion_matrix_ck+.png)
 ### For Videos:
-|  | Dataset | Accuracy |
-| ----- | ---- | ---- |
-|Training | BAUM-2 | 36% |
-|Testing | Will be Updated Soon | Will be updated soon |
+|  | Dataset | Model | Accuracy |
+| ----- | ---- | ---- | ---- |
+|Training | BAUM-2 | CNN+LSTM | 36% |
+|Training | BAUM-2 | C3D | 28.4% |
 
 ## Description Of Various Files/Folder in the Repository
 ### [Emotion_Recognition(Pre_processing)FER2013.ipynb](Image/Emotion_Recognition(Pre_processing)FER2013.ipynb)
