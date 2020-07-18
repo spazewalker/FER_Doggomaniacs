@@ -1,7 +1,7 @@
 # Facial Emotion Recognition
 ### By Team Doggomaniacs, IIT Kanpur
 This repository contains all the files for Emotion Recognition through Facial Expression recognition, a summer project under Brain and Cognitive Society, IIT Kanpur.  
-The Documentation for the Project is [here](https://docs.google.com/document/d/1_S7o_sjIJ0yEDf_mu1lZ3yBAOcsT6hbORnF6GvkNQRA/edit?fbclid=IwAR1UHVqlTVU_IazHMDv2Troj6LfdpXfdnNmquhT3e6sBZ9OBhMl6vcFfm2A).
+The Documentation for the Project is here[Doc](https://docs.google.com/document/d/1_S7o_sjIJ0yEDf_mu1lZ3yBAOcsT6hbORnF6GvkNQRA/edit?fbclid=IwAR1UHVqlTVU_IazHMDv2Troj6LfdpXfdnNmquhT3e6sBZ9OBhMl6vcFfm2A)/[PDF](FER_Documentation.pdf).
 
 Goal of the project:
 * Design a Model for Emotion Recognition in Images. Paper Implemented: [DeXpression: Deep Convolutional Neural Network for Expression Recognition
